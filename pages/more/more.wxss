@@ -1,0 +1,46 @@
+/* pages/more/more.wxss */
+.moreTab{
+  margin:0 0 10rpx 10rpx;
+  color:#666;
+  font-size:30rpx;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.icon-image{
+  width:100rpx;
+  height:100rpx;
+  margin:20rpx 70rpx 0;
+}
+.tabText{
+  margin:0 0 0 90rpx;
+}
+.more-container{
+  height:350rpx;
+  border:2rpx solid #2a579a;
+  border-radius:10rpx;
+  margin-left:10rpx;
+  margin-right:10rpx;
+  padding:10rpx 10rpx;
+  align-items:center;
+  justify-content:center;
+}
+.more{
+  height:100%;
+  width:100%;
+}
+.moreSelected{
+  border:1rpx #2a579a solid;
+  border-radius:20%;
+}
+.more_info{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing:border-box；
+  margin：25rpx 20rpx;
+  color:#666;
+  font-size:28rpx;
+  background-color: #f5f5f5;
+
+}

@@ -1,0 +1,72 @@
+/* pages/weather/weather.wxss */
+.bg{
+  height:700rpx;
+  width:750rpx;
+}
+.wrap{
+  width:100%;
+  height:100%;
+  box-sizing:border-box;
+  position:absolute;
+  top:0;
+  left:0;
+  padding:30rpx;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.curWeather{
+  height:650rpx;
+  display: flex;
+  flex-direction: column
+}
+.curTemperature{
+  color:#fff;
+  font-size:0.8em;
+  flex-grow:1;
+}
+.tmp{
+  font-size:5em;
+}
+.city{}
+.type{}
+.curExtern{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+color:#fff;
+
+}
+.wind{}
+.val{
+  text-align: center;
+  font-size:1.2em;
+}
+.line{
+  border:0.9em solid #fff;
+}
+.relWet{}
+.view{}
+.humanTmp{}
+.forecast{
+  color:#87ceeb;
+  margin-top:40rpx;
+}
+.castItem{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:1rpx solid #ccc;
+  padding:50rpx 10rpx;
+}
+.castDay{}
+.castType{}
+.typeImg{
+
+  width:50rpx;
+  height:50rpx;
+  vertical-align: middle;
+}
+.castTmp{}
+.tmp,.city,.type{
+  text-align:right;
+}

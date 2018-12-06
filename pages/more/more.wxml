@@ -1,0 +1,26 @@
+<!--pages/more/more.wxml-->
+<!-- <text>pages/more/more.wxml</text> -->
+<view class="moreTab">
+  <view class="{{selectState[0]?'moreSelected':''}}" bindtap="clickDict">
+    <image class="icon-image" src="../../images/cidian.png"></image>
+    <view class="tabText">词典</view>
+  </view>
+  <view class="{{selectState[1]?'moreSelected':''}}" bindtap="clickExpre">
+    <image class="icon-image" src="../../images/kuaidi.png"></image>
+    <view class="tabText">快递</view>
+  </view>
+  <view class="{{selectState[2]?'moreSelected':''}}" bindtap="clickMore">
+    <image class="icon-image" src="../../images/more.png"></image>
+    <view class="tabText">敬请期待。。。</view>
+  </view>
+</view>
+<view class="more_container">
+  <view wx:if="{{selectIndex}}">
+    <image class="conImage" src="../../images/more/more{{selectIndex}}.png"></image>
+  </view>
+</view>
+<view>
+  <text class="more_info">友情链接(点击下面文字扫码进入)</text>
+  <text class="{{selectState[3]?'more_info_moreSelected':'more_info'}}" bindtap="clickGithub">本项目github地址</text>
+  <text class="{{selectState[4]?'more_info_moreSelected':'more_info'}}" bindtap="clickBlog">我的博客园地址</text>
+</view>

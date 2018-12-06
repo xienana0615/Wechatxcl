@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/welcome/welcome",
+    "pages/map/map",
+    "pages/more/more",
+    "pages/movies/movies",
+    "pages/news/news",
+    "pages/switchcity/switchcity",
+    "pages/weather/weather",
+    "pages/movies/movie-list/movie-list-template",
+    "pages/movies/movie/movie-template",
+    "pages/movies/stars/star-template",
+    "pages/movies/movie-grid/movie-grid-template",
+    "pages/movies/more-movie/more-movie",
+    "pages/movies/movie-detail/movie-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2e579a",
+    "navigationBarTitleText": "e-生活",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#2e579a",
+    "color": "#dcedc8",
+    "selectedColor": "#dcedc8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      }
+    ]
+  }
+}
